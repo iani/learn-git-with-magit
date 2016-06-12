@@ -1,1 +1,88 @@
 Practicing git on EMACAS with magit.
+
+Concepts to discuss - from the menu items of Magit:
+
+* Popup and dwim commands
+** A - Cherry-picking
+
+** b Branching
+
+** B Bisecting
+
+** c Committing
+
+** d Diffing
+
+** D Change diffs
+
+** e Ediff dwimming
+
+** E Ediffing
+
+** f Fetching
+
+** F Pulling
+
+** l Logging
+
+** m Merging
+
+** M Remoting
+
+** o Submodules
+
+** P Pushing
+
+** r Rebasing
+
+** t Tagging
+
+** T Notes
+
+** V Reverting
+
+** w Apply patches
+
+** W Format patches
+
+** y Show Refs
+
+** z Stashing
+
+** | Running
+
+
+* Applying changes
+** a Apply
+** s Stage
+** u Unstage
+** v Reverse
+** S Stage alll
+** U Unstage all
+** k Discard
+
+* Misc basic
+
+** g refresh current buffer
+
+** TAB toggle section at point
+
+** RET visit thing at point
+
+** C-h m show all key bindings
+
+* Common Commands
+
+** C-c C-c Set defaults
+
+** C-h i View popup manual
+
+** C-t Toggle this section
+
+** C-x C-s Save defaults
+
+** ? Popup help prefix
+
+** C-g Abort
+
+
