@@ -1,88 +1,93 @@
 Practicing git on EMACAS with magit.
 
+* Discarding uncommitted changes
+
+On the main magit buffer, (C-x g), the Unstaged changes are displayed per file.  Type Meta-N to get to the file that you wish to examine.  Then type Meta-TAB to open up a view of the uncommitted changes.  Then type Meta-N to get to the hunk - i.e. section - of changes that you want to undo.  Then type k to cancel the changes in that section.  Note: Meta-TAB toggles folding-unfolding of subsections.
+
+* Overview of items
 Concepts to discuss - from the menu items of Magit:
 
-* Popup and dwim commands
-** A - Cherry-picking
+** Popup and dwim commands
+*** A - Cherry-picking
 
-** b Branching
+*** b Branching
 
-** B Bisecting
+*** B Bisecting
 
-** c Committing
+*** c Committing
 
-** d Diffing
+*** d Diffing
 
-** D Change diffs
+*** D Change diffs
 
-** e Ediff dwimming
+*** e Ediff dwimming
 
-** E Ediffing
+*** E Ediffing
 
-** f Fetching
+*** f Fetching
 
-** F Pulling
+*** F Pulling
 
-** l Logging
+*** l Logging
 
-** m Merging
+*** m Merging
 
-** M Remoting
+*** M Remoting
 
-** o Submodules
+*** o Submodules
 
-** P Pushing
+*** P Pushing
 
-** r Rebasing
+*** r Rebasing
 
-** t Tagging
+*** t Tagging
 
-** T Notes
+*** T Notes
 
-** V Reverting
+*** V Reverting
 
-** w Apply patches
+*** w Apply patches
 
-** W Format patches
+*** W Format patches
 
-** y Show Refs
+*** y Show Refs
 
-** z Stashing
+*** z Stashing
 
-** | Running
+*** | Running
 
 
-* Applying changes
-** a Apply
-** s Stage
-** u Unstage
-** v Reverse
-** S Stage alll
-** U Unstage all
-** k Discard
+** Applying changes
+*** a Apply
+*** s Stage
+*** u Unstage
+*** v Reverse
+*** S Stage alll
+*** U Unstage all
+*** k Discard
 
-* Misc basic
+** Misc basic
 
-** g refresh current buffer
+*** g refresh current buffer
 
-** TAB toggle section at point
+*** TAB toggle section at point
 
-** RET visit thing at point
+*** RET visit thing at point
 
-** C-h m show all key bindings
+*** C-h m show all key bindings
 
-* Common Commands
+** Common Commands
 
-** C-c C-c Set defaults
+*** C-c C-c Set defaults
 
-** C-h i View popup manual
+*** C-h i View popup manual
 
-** C-t Toggle this section
+*** C-t Toggle this section
 
-** C-x C-s Save defaults
+*** C-x C-s Save defaults
 
-** ? Popup help prefix
+*** ? Popup help prefix
 
-** C-g Abort
+*** C-g Abort
 
 
