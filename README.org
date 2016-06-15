@@ -1,4 +1,8 @@
 Practicing git on EMACAS with magit.
+* Useful link
+https://www.youtube.com/watch?v=vQO7F2Q9DwA
+Magit Introduction and Demonstration, by Howard Abrams, 
+shows e-diff, fetch, merge, rebase, squash.
 
 * Discarding uncommitted changes
 
