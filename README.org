@@ -4,7 +4,13 @@ Practicing git on EMACAS with magit.
 
 On the main magit buffer, (C-x g), the Unstaged changes are displayed per file.  Type Meta-N to get to the file that you wish to examine.  Then type Meta-TAB to open up a view of the uncommitted changes.  Then type Meta-N to get to the hunk - i.e. section - of changes that you want to undo.  Then type k to cancel the changes in that section.  Note: Meta-TAB toggles folding-unfolding of subsections.
 
-* Overview of items
+* View log + Reset to previous node, discarding recent commits
+
+To view a log of commits, press l to switch to log and then l again to show log of current part of the tree. 
+
+To reset the repository to an earlier commit, move to that commit (by pressing meta-n, or by searching forward to some text in the commit), and then press x.  Magit shows in the minibuffer the pointer to the commit that you have chosen, in a form relative to the current location of the HEAD, and lets you confirm the reset.  The work tree (the current contents of the working folder for this repository) is set to the commit which you chose, and all commits after this commit are discarder (lost for ever). 
+
+* Overview of items from magit menu
 Concepts to discuss - from the menu items of Magit:
 
 ** Popup and dwim commands
